@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background: rgb(150, 59, 17);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    background: rgb(255, 252, 252);
+    padding: 1.5%;
+}
+
+.logo {
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.navbar a {
+      text-decoration: none;
+      color: black;
+     font-size: 1.2em;
+}
+
+.navbar a:hover {
+     text-decoration: underline;
+     color: rgb(235, 173, 41);
+}
+
+.navbar a:active {
+    color: aqua;
+}
+
+
+.maskot {
+    text-align: center;
+    padding: 1.2em;
+    background: white;
+    margin: 3em;
+    border-radius: 10px ;
+    
+}
+
+.maskot h2 {
+    background:  rgb(150, 59, 17);
+    border-radius: 16px;
+    margin-left:20%;
+    margin-right: 20%;
+    color: aliceblue;
+    padding: 0.3em;
+}
+
+.maskot img {
+    width: 70%;
+    margin: 1.5em;
+    border-radius: 10px;
+}
+
+.filosofi {
+    text-align: center;
+    padding: 1.2em;
+    background: white;
+    margin: 3em;
+    border-radius: 10px ;
+}
+
+.filosofi h2{
+    background:  rgb(150, 59, 17);
+    border-radius: 16px;
+    margin-left:20%;
+    margin-right: 20%;
+    color: aliceblue;
+    padding: 0.3em;
+}
+
+.kontak{
+    text-align: center;
+    padding: 1.2em;
+    background: white;
+    margin: 3em;
+    border-radius: 10px ;
+    
+}
+
+
+
+footer {
+    text-align: center;
+}
